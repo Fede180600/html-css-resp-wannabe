@@ -82,18 +82,11 @@
   #steps .row>.central,
   #steps .row>.right{
     width: 100%;
-    margin: 0;
+    margin-top: 0;
     text-align: center;
     font-size: 1.3rem;
   }
 
-
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right {
-    width: 100%;
-    margin-top: 1rem;
-  }
 }
 
 /* BLOCCO PERCHE */
@@ -112,6 +105,35 @@
   background-color: #428bca;
   border-radius: 50%;
   padding: 30px
+}
+
+@media screen and (max-width: 419px){
+  * {
+    margin: 0;
+  }
+  
+  #why {
+    background-color: rgb(174, 255, 172);
+    width: 111.5%;
+    padding-top: 1rem;
+    padding-bottom: .7rem;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+
+  #why .row img {
+    height: 30vw;
+    width: auto;
+  }
 }
 
 /* COMMON */
