@@ -23,6 +23,37 @@
   text-align: center;
 }
 
+@media screen and (max-width: 419px){
+  * {
+    margin: 0;
+  }
+  
+  #lezioni {
+    background-color: bisque;
+    width: 111.5%;
+    padding-top: 1rem;
+    padding-bottom: .7rem;
+  }
+
+  .row {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+#lezioni .row img {
+    width: 40%;
+    object-fit: cover;
+}
+
 /* BLOCCO STEPS */
 #steps .row>.left,
 #steps .row>.central,
@@ -33,6 +64,36 @@
 
 #steps {
   text-align: center;
+}
+
+@media screen and (max-width: 419px){
+  * {
+    margin: 0;
+  }
+  
+  #steps {
+    background-color: rgb(224, 233, 255);
+    width: 111.5%;
+    padding-top: 1rem;
+    padding-bottom: .7rem;
+  }
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 100%;
+    margin-top: 1rem;
+  }
 }
 
 /* BLOCCO PERCHE */
@@ -71,3 +132,5 @@ img {
 .clear {
   clear: both;
 }
+
+
